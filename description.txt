@@ -8,7 +8,8 @@ Custom SPA with two main features (components):
 1.It is a SPA. User can navigate between SPA using Routes.
 2.Video Player Component has three child components. 
 The data will be passed from parent to child component and form child to parent component using @Input and @Output bindings respectively.
-3.Use ng-bootstrap to add responsiveness4.All video data is received in Angular app making calls to fake REST API created using JSON server. 
+3.Use ng-bootstrap to add responsiveness
+4.All video data is received in Angular app making calls to fake REST API created using JSON server. 
 The sample of JSON file is given below. Pl. feel free to modify the structure of JSON file as per business logic in angular app.
 5.If required, create custom images (.png) for the buttons using:a.Microsoft Paintb.https://pixlr.com/editor/c.https://www.getpaint.net/
 6.Feel free to customize the layout further to showcase your creativity
