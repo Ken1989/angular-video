@@ -7,31 +7,31 @@
         </div>
 
         <div nz-col nzSpan="3">
-            <button nz-button nzType="primary" nzShape="circle">
+            <button nz-button nzType="primary" nzShape="circle" (click)='togglePlayPause()'>
                 <i nz-icon nzType="play-circle" nzTheme="outline"></i>
             </button>
         </div>
 
         <div nz-col nzSpan="3">
-            <button nz-button nzType="primary" nzShape="circle">
+            <button nz-button nzType="primary" nzShape="circle" (click)='stopPlayer()'>
                 <i nz-icon nzType="pause" nzTheme="outline"></i>
             </button>
         </div>
 
         <div nz-col nzSpan="3">
-            <button nz-button nzType="primary" nzShape="circle">
+            <button nz-button nzType="primary" nzShape="circle" (click)='changeVolume("+")'>
                 <i nz-icon nzType="caret-up" nzTheme="outline"></i>
             </button>
         </div>
 
         <div nz-col nzSpan="3">
-            <button nz-button nzType="primary" nzShape="circle">
+            <button nz-button nzType="primary" nzShape="circle" (click)='changeVolume("-")'>
                 <i nz-icon nzType="caret-down" nzTheme="outline"></i>
             </button>
         </div>
 
         <div nz-col nzSpan="3">
-            <button nz-button nzType="primary" nzShape="circle">
+            <button nz-button nzType="primary" nzShape="circle" (click)='toggleMute("true")'>
                 <i nz-icon nzType="sound" nzTheme="outline"></i>
             </button>
         </div>

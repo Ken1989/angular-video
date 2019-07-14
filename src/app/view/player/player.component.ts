@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-player',
@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./player.component.scss']
 })
 export class PlayerComponent implements OnInit {
+
+  @ViewChild('mediaVideo', {static: false}) videoPlayer: ElementRef;
+
+  @ViewChild('progressBar', {static: false}) progressBar: ElementRef;
 
   constructor() { }
 
